@@ -1,0 +1,10 @@
+HTLM = Hyper text Markup Language
+ markups/tags are used to convey to an internet browser how some content should be displayed
+
+CSS = Cascading Style Sheets
+ language that adds style to a webpage
+  using a house as an example CSS would correspond to the paint job, decoration and design 
+
+
+Need a browser to work with both CSS and HTML (chrome, safari etc); a text editor (VS code)
+On VS code we can use a Live Server extension to preview updates automatically as developement occurs 

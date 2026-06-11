@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- tells browser that this is an HTML5 document and the language is English -->
+    <head>
+        <meta charset="UTF-8"> <!-- character encoding - ensure emojies, accented letters, and non-english scipts are displayed correctly -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- for compatibility with older versions of Internet Explorer -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes webpage mobile friendly, matching the widtch and the initial zoom scale -->
+        <title>Audio webpage</title>
+    </head>
+    <body>
+        <h4>country music by hugh mitchel</h4>
+        <audio controls> <!-- adds audio controls to the audio player -->
+            <source src="audio/Country Music - Hugh Mitchel.mp3"> <!-- use source attribute -->
+        </audio>
+        <br>
+        <br>
+        <br>
+        <h4>it goes like that by the everlove</h4>
+        <audio controls autoplay muted loop> <!-- using autoplay attribute to start playing automatically
+            muted attribute to mute the audio, loop attribute to loop the audio -->
+            <source src="audio/Goes Like This - The Everlove.mp3"> 
+        </audio>
+        <br>
+        <br>
+        <br>
+        <h4>wildfire by jessie villa</h4>
+        <audio controls>
+            <!-- providing additional audio sources in case the first one is not supported by the browser -->
+            <source src="audio/Wildfire - Jessie Villa.mp3" type="audio/mpeg">
+            <source src="audio/Wildfire - Jessie Villa.mp3" type="audio/wav"> <!-- using type attribute to specify the audio format -->
+        </audio>
+
+    </body>
+
+</html>
