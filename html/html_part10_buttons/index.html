@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Buttons</title>
+    </head>
+    <body>
+        <a href="https://www.google.com" 
+        target="_blank"
+        title="Google">
+            <button style="font-size:25px; background-color:grey; color:white; border-radius:5px; padding:10px 20px; cursor:pointer; border: none;">
+                click me
+            </button>
+        </a>
+        <br>
+        <br>
+        <!-- javascript -->
+        <button onclick="doSomething()" style="font-size:25px; background-color:green; color:white; border-radius:5px; padding:10px 20px; cursor:pointer; border: none;">
+            click me too
+        </button>
+        <p id="greeting">Hello, World!</p>
+        <script>
+            function doSomething() {
+                document.getElementById("greeting").innerHTML = "You clicked the button!";
+            }
+        </script>
+    
+    </body>
+</html>
