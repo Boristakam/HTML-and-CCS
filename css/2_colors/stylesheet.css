@@ -1,0 +1,19 @@
+/* this file is used to select specific parts a html that links it to apply css properties */
+/* colours can be defined using their names/keywords or hex value or RGB value or hsl values- see comprehesive list on 
+   https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color google colour picker for rgb values,
+   or click on the colour box prefixing the colour name here on code to access a built in one */
+body{
+    background-color:slategrey;
+}
+#p1{
+    color:tomato;
+}
+#p2{
+    color:rgb(252, 219, 2);
+}
+#p3{
+    color:#0384fc;
+}
+#p4{
+    color:hsl(290, 98%, 50%);
+}
