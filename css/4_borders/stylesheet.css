@@ -1,3 +1,23 @@
 body{
-    background-color:lightslategray;
+    background-color:rgb(212, 217, 223);
+}
+
+h1{
+    /* border-style: solid;  *//* double, inset, outset, none, dotted */ 
+    /* border-width: 8px;
+    border-color:hsl(0, 56%, 49%); */
+
+    /* the obove three css parameters written in a single line */
+    border: 8px solid hsl(0, 56%, 49%);
+
+    border-radius: 20px;
+}
+
+p{
+    border-bottom: 5px solid hsl(60, 85%, 50%);
+    border-top: 5px solid hsl(318, 67%, 29%);
+    border-left: 5px dotted hsl(239, 66%, 30%);
+    border-right: 5px inset hsl(143, 71%, 31%);
+
+    border-radius: 15px; /* applied to all borders */
 }

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"> <!-- character encoding - ensure emojies, accented letters, and non-english scipts are displayed correctly -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- for compatibility with older versions of Internet Explorer -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes webpage mobile friendly, matching the widtch and the initial zoom scale -->
         <title>CSS Introduction</title>
     </head>
 
