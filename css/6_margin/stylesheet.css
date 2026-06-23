@@ -17,6 +17,6 @@ body{
 #box2{
     background-color:rgb(142, 226, 102);
     margin: 15px; /* applies margin on all 4 sides - space between itself and other elements */
-    margin: auto /* makes the box stay center of the webpage (horizontally) */
-
+    margin: auto; /* makes the box stay center of the webpage (horizontally) */
+    font-weight: bold;
 }
