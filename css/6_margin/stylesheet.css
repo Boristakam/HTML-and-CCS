@@ -1,3 +1,22 @@
 body{
-    background-color:lightslategray;
+    background-color:hsl(210, 13%, 76%);
+    margin: 0px;
+}
+
+.box{
+    border:5px solid;
+    font-size:2em;
+    width:200px;
+    height:200px;
+}
+#box1{
+    background-color:rgb(137, 137, 209);
+    margin-left: 300px; /* appies margin on the left side */
+    margin-left: auto /* makes the box still to the right side of the webpage */
+}
+#box2{
+    background-color:rgb(142, 226, 102);
+    margin: 15px; /* applies margin on all 4 sides - space between itself and other elements */
+    margin: auto /* makes the box stay center of the webpage (horizontally) */
+
 }
